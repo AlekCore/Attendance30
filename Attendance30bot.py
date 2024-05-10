@@ -4,8 +4,8 @@ import time
 
 TOKEN = "6856447846:AAGgqkGS36OFJ1jkNUo1_0qnfxsGGPaEUhU"
 bot = telebot.TeleBot(TOKEN)
-pulh = 18
-pulmin = 49
+pulh = 8
+pulmin = 30
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
